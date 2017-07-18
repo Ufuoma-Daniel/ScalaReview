@@ -16,7 +16,7 @@ class Tests extends FunSuite {
   test("createString: Positive Number hundreds, shortscale") {
     assert(createString("123", "short", 0) === "123 ")
   }
-//
+
   test("createString: Positive Number thousands, shortscale") {
     assert(createString("123456", "short", 0) === "123 Thousand 456 ")
   }
