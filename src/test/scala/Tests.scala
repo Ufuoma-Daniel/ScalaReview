@@ -5,5 +5,4 @@
 import org.scalatest.FunSuite
 class Tests extends FunSuite {
 
-
 }
