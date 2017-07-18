@@ -16,7 +16,7 @@ object Main extends App {
       "Negative"
     }
   }
-
+//
   def returnScale(index: Int, message: String, scaleType: String): String = {
     val list = List("", "Thousand", "Million", "Billion", "Trillion", "Quadrillion", "Quintillion", "Sextillion",
       "", "Thousand", "Million", "Milliard", "Billion", "Billiard", "Trillion", "Trilliard")
