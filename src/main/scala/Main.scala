@@ -6,7 +6,7 @@ object Main extends App {
     if(stringed.charAt(0) != '-'){
       if(stringed.length > 3){
         val substringed = stringed.substring(stringed.length-3, stringed.length)
-        val toPrint = createString(stringed.substring(0, stringed.length-3), style, loop+1)+" "+ returnScale(loop, substringed, style)
+        val toPrint = createString(stringed.substring(0, stringed.length-3), style, loop +1) + " " + returnScale(loop, substringed, style)
         toPrint
       }else{
         val toPrint = returnScale(loop, stringed, style)
@@ -21,7 +21,7 @@ object Main extends App {
     val list = List("", "Thousand", "Million", "Billion", "Trillion", "Quadrillion", "Quintillion", "Sextillion",
       "", "Thousand", "Million", "Milliard", "Billion", "Billiard", "Trillion", "Trilliard")
     if(scaleType == "long"){
-      message + " " + list(index+8)
+      message + " " + list(index +8)
     }else{
       message + " " + list(index)
     }
